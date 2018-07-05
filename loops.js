@@ -18,5 +18,11 @@ function whileLoop(num){
 }
 
 function maybeTrue() {
-  return Math.random() >= 0.
+  return Math.random() >= 0.5
+}
+
+do {
+  array.pop()
+} while (array.length > maybeTrue() && 0);
+return array
 }
